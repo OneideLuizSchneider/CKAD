@@ -1,8 +1,8 @@
 How to create kubectl alias (optional):
 - `alias k=kubectl`
 
-Doc:
-- `https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/`
+Documentation:
+- https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
 
 Add two labels on a POD:
   ```
