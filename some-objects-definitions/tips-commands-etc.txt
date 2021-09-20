@@ -1,0 +1,60 @@
+4 important tags, :
+apiVersion, kind, metadata, spec
+
+# always need these options below
+apiVersion:
+kind:
+metadata:
+spec:
+  
+
+# apiVersions and kinds
+
+Kind                   Version
+
+Pod                    v1    
+Service                v1
+ReplicationController  v1
+ReplicaSet             apps/v1   
+Deployment             apps/v1 
+ReplicaSet             apps/v1
+
+
+
+# Example
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  containers:
+    - name: nginx-name
+      image: nginx
+
+###############################
+
+kubectl get pod <pod-name> -o yaml > pod-definition.yaml
+kubectl edit pod <pod-name>
+
+# see where thes pods are running, what nodes...
+kubectl get pods -o wide
+
+kubectl get replicaset
+kubectl delete replicaset myapp-replicaset
+kubectl replace -f replicaset-definition.yml
+kubectl scale -replicas=6 replica
+
+#### DEPLOYMENT
+# maybe different version
+1 - kubectl create deployment --image=nginx nginx --dry-run=client -o yaml
+2 - kubectl create deployment --image=nginx nginx --dry-run -o yaml
+# save local
+kubectl create deployment --image=nginx nginx --dry-run=client -o yaml > nginx-deployment.yaml
+
+#### SERVICE
+
+kubectl create service clusterip redis --tcp=80:80 --dry-run -o yaml > nginx-service.yaml
+kubectl create service nodeport nginx --tcp=80:80 --dry-run -o yaml > nginx-service.yaml

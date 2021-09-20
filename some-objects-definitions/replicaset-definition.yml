@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: rs-frontend
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      type: frontend
+
+  template:
+    metadata:
+      labels:
+        type: frontend
+
+    spec:
+      containers:
+      - name: nginx-name
+        image: nginx
+        ports:
+        - containerPort: 80
