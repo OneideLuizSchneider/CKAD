@@ -7,6 +7,7 @@ CNCF Certified Kubernetes Application Developer (CKAD)
 * [CKAD Candidate Handbook](https://www.cncf.io/certification/candidate-handbook)
 * [CKAD Exam Tips](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
 * [FAQs](https://www.cncf.io/certification/expert/cka/faq/)
+* [More Details](https://www.cncf.io/certification/ckad/)
 
 # CKAD Curriculum until 2021-09-20
 
