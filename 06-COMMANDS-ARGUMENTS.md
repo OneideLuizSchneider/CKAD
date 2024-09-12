@@ -29,6 +29,9 @@ Run POD with command and arguments:
         - "5000"
   ```
 
+Or just:
+- `k run ubuntu --image=ubuntu --command sleep 5000`
+
 Obs.:
 - The tag `command` is will overwrite the tag `ENTRYPOINT` from Dockerfile.
 - The tag `args` is will overwrite the tag `CMD` from Dockerfile.

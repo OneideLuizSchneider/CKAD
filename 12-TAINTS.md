@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Create a taint
 - `k taint nodes node-name key=value:taint-effect`

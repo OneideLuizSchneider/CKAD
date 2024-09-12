@@ -1,9 +1,4 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
-
-Documentation:
-- https://kubernetes.io/docs/concepts/storage/volumes/
-- https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+#### Persistent Volumes and PV. Claims
 
 Persistent Volumes:
   ```
@@ -60,10 +55,8 @@ POD:
           claimName: my-pvc
   ```
 
+---
 
-
-  volumes:
-  - name: default-token-qq6ns
-    secret:
-      defaultMode: 420
-      secretName: default-token-qq6ns
+Doc:
+- <https://kubernetes.io/docs/concepts/storage/volumes/>
+- <https://kubernetes.io/docs/concepts/storage/persistent-volumes/>

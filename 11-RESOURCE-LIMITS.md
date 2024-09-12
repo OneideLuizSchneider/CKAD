@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Limite resorces for all the PODS in default NS:
   ```

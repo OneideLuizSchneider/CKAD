@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Add livenessProbe and readinessProbe on a POD:
   ```
