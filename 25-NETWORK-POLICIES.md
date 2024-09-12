@@ -1,8 +1,4 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
-
-Documentation:
-- https://kubernetes.io/docs/concepts/services-networking/network-policies/
+#### Network Policy
 
 NetworkPolicy example:
   ```
@@ -37,4 +33,9 @@ Create it:
 
 
 Obs.: ***Flannel*** does not support NetwotkPolicies.
-      But ***Kube-router, Calico, Romana, Weave-net*** does.
+      But ***Kube-router, Calico, Cilium...*** does support.
+
+---
+
+Doc:
+- <https://kubernetes.io/docs/concepts/services-networking/network-policies/>

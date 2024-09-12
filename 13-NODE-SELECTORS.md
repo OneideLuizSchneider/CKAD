@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Create a label
 - `k label nodes node1 app=ssd`

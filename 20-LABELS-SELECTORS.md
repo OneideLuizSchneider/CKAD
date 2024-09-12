@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Get Nodes metrics:
 - `k get pods --selector app=app1`

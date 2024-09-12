@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Show all labels on the nodes:
 - `k get nodes --show-labels`

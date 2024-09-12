@@ -1,7 +1,5 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
-Go to github and install metrics-server:
+Go to github and install metrics-server(If needed):
 - `https://github.com/kubernetes-sigs/metrics-server`
 
 Get Nodes metrics:
