@@ -1,6 +1,7 @@
-#### CKAD
+#### Time management
+
 - 2 horas
-- 19 exercises
+- 15-20 exercises
 - Do not get stuck :D
 - Know yaml files :D
 - Use k8s aliases such as

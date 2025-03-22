@@ -1,7 +1,5 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
-- `alias kdr='kubectl -o yaml --dry-run=client'`
-  
+#### Ingress
+
 Install Nginx Ingress Controller Steps:
 - ConfigMap
   - `kdr create configmap nginx-configuration -n ingress-space > configmap.yml`

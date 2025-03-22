@@ -1,5 +1,4 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
+#### Service
 
 Service NodePort:
   ```

@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Security Context for the POD:
   ```
@@ -53,3 +51,8 @@ Security Context for the Container with capabilities:
 
 To see more details of the a POD:
 - `k get po -o wide`
+
+---
+
+Doc:
+- <https://kubernetes.io/docs/tasks/configure-pod-container/security-context/>

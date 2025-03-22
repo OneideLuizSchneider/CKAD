@@ -1,5 +1,3 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
 
 Show the POD logs:
 - `k logs pod-name`

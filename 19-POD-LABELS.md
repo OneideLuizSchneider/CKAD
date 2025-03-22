@@ -1,8 +1,4 @@
-How to create kubectl alias (optional):
-- `alias k=kubectl`
-
-Documentation:
-- https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+#### Labels
 
 Add two labels on a POD:
   ```
@@ -23,3 +19,9 @@ Add two labels on a POD:
    
 Get Pods by labels:
 - `k get pods -l environment=production,tier=frontend`
+
+
+---
+
+Doc:
+- https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
