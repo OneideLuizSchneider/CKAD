@@ -10,7 +10,7 @@ CNCF Certified Kubernetes Application Developer (CKAD)
 * [More Details](https://www.cncf.io/certification/ckad/)
 * [killercoda](https://killercoda.com/killer-shell-ckad)
 
-# CKAD Curriculum until 2024-09-20
+# CKAD Curriculum until 2025-03-22
 
 ## Application Design and Build 20%
 
